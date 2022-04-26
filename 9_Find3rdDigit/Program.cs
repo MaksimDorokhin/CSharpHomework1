@@ -17,7 +17,7 @@ if (num > 99)
             num2 = num2 / 10;
             count++;
         }
-        while (count > 3) //Убираем лишние цифры числа до 3-го
+        while (count > 3) //Убираем лишние цифры числа до 3-х
         {
             dig3 = dig3 / 10;
             count = count - 1;
