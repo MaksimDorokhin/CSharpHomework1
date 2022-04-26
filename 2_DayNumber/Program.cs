@@ -29,7 +29,7 @@ if (daynum == 7)
 {
     Console.WriteLine($"Название дня с номером {daynum} - Воскресение!");
 }
-if (daynum < 0 || daynum > 7)
+if (daynum <= 0 || daynum > 7)
 {
     Console.WriteLine($"Дня с номером {daynum} не существует!");
 }
